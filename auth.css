@@ -1,0 +1,39 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth_frame {
+    padding: 10px;
+    background: antiquewhite;
+    max-height: 200px;
+    height: 100%;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth_frame h1, a {
+    text-align: center;
+}
+
+.auth_frame span {
+    text-align: center;
+    color: red;
+}
+
+.auth_frame form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.auth_frame .form_input {
+    padding: 5px;
+    border: 2px solid orange;
+}
